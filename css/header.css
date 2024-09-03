@@ -1,0 +1,136 @@
+.head{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding: 0 16px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(211, 211, 211);
+}
+
+.left{
+    display: flex;
+    align-items: center;
+   
+   
+}
+.mide{
+    display: flex;
+    flex: 1;
+    max-width: 700px;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+
+}
+
+.search-bar{
+   
+    flex:1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 33px;
+    padding-left: 20px;
+    margin-left: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0px;
+}
+
+.search-bar::placeholder{
+    font-size: 16px;
+}
+
+.search-button{
+    height: 37px;
+    width: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+}
+
+.mic-button .toolkit{
+    position: relative;
+}
+
+.search-button .toolkit , .mic-button .toolkit , .video .toolkit
+, .notification .toolkit{
+    position: absolute;
+    background-color: rgb(196, 191, 191);
+    border-radius: 2px;
+    padding: 4px ;
+    bottom: -25px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.search-button:hover .toolkit , .mic-button:hover .toolkit , .video:hover .toolkit
+, .notification:hover .toolkit{
+    opacity: 1;
+}
+
+.search-icon{
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 4px;
+}
+
+.mic-button{
+    border-radius: 100px;
+    border-style: solid;
+    border-color: white;
+}
+
+.right{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0px;
+    position: relative;
+}
+
+.video{
+    margin-left: 60px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+}
+
+.notification{
+    margin-left: 15px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    position: relative;
+}
+
+.bell{
+    position: absolute;
+    top: -2PX;
+    right: 0.9PX;
+    background-color: brown;
+    color: white;
+    width: 15px;
+    border-radius: 50px;
+}
+
+.i{
+    margin-left: 20px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+}

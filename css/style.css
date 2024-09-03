@@ -1,0 +1,52 @@
+.pp{
+    margin: 0px;
+}
+.video-grid-full{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+}
+@media (max-width: 750px){
+    .video-grid-full{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px){
+    .video-grid-full{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.video-profile{
+    display: block;
+}
+
+.i1{
+    width: 100%;
+}
+
+.i2{
+    border-radius:30px;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.t{
+    margin: 0px;
+}
+
+.video-page{
+    position: relative;
+}
+
+.video-time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 10px;
+    right: 10px;
+}
